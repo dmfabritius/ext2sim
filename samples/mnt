@@ -1,0 +1,2 @@
+#! /bin/bash
+sudo mount -o loop disk0 /mnt

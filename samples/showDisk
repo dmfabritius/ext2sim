@@ -1,0 +1,24 @@
+#! /bin/bash
+clear
+sudo mount -o loop disk1 /mnt
+echo '***' ls -alF /mnt '***'
+ls -alF /mnt
+
+echo
+echo '***' ls -alF /mnt/dir1 '***'
+ls -alF /mnt/dir1
+
+echo
+echo '***' ls -alF /mnt/dir1/dir3 '***'
+ls -alF /mnt/dir1/dir3
+
+echo
+echo '***' ls -alF /mnt/dir2 '***'
+ls -alF /mnt/dir2
+
+echo
+echo '***' df /mnt '***'
+df /mnt
+
+sudo umount /mnt
+
